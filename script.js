@@ -1,0 +1,5 @@
+function startCount(duration, display) {
+
+
+
+}
