@@ -5,6 +5,7 @@ function startCount(duration, display) {
     const interval = setInterval(() => {
 
         minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
 
 
     }, 1000)
