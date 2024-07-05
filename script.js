@@ -1,9 +1,12 @@
 function startCount(duration, display) {
 
-    let timer = duration, display, seconds;
-    
+    let timer = duration, minutes, seconds;
+
     const interval = setInterval(() => {
-        
-    },1000)
+
+        minutes = parseInt(timer / 60, 10);
+
+
+    }, 1000)
 
 }
