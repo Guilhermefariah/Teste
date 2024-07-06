@@ -23,4 +23,5 @@ window.onload = () => {
     const duration = 60 * 9;
     const display = document.querySelector('#count');
     
+    startCount(duration, display);
 }
