@@ -9,10 +9,10 @@ function startCount(duration, display) {
 
         minutes = minutes < 10 ? "0" + minutes : minutes;
         seconds = seconds < 10 ? "0" + seconds : seconds;
-        
+
         display.textContent = minutes + ":" + seconds;
 
-        if(--timer < 0 ) {
+        if (--timer < 0) {
             clearInterval(interval);
             display.textContent = 'Tempo esgotado!';
         }
@@ -20,5 +20,6 @@ function startCount(duration, display) {
 }
 
 window.onload = () => {
+    const duration = 60 * 9;
     
 }
