@@ -20,7 +20,7 @@ function startCount(duration, display) {
 }
 
 window.onload = () => {
-    const duration = 60 * 9;
+    const duration = 60 * 10;
     const display = document.querySelector('#count');
     
     startCount(duration, display);
