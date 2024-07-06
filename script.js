@@ -16,7 +16,9 @@ function startCount(duration, display) {
             clearInterval(interval);
             display.textContent = 'Tempo esgotado!';
         }
-
     }, 1000)
+}
 
+window.onload = () => {
+    
 }
